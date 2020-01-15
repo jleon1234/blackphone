@@ -1,0 +1,87 @@
+.recibo-imprimir{
+    padding: 0 25px !important;
+}
+.cabecera-recibo{
+    width: 100%;
+    overflow: hidden;
+}
+.cabecera-recibo .info-local{
+    width: 25%;
+    float: left;
+}
+.cabecera-recibo .info-numero-recibo{
+    width: 25%;
+    margin-top: 25px;
+    float: right;
+    text-align: center;
+}
+.cabecera-recibo .info-numero-recibo .recibo-texto{
+    border:1px solid #000000;
+    padding: 10px;
+}
+.cabecera-recibo .info-numero-recibo .recibo-numero{
+    border:1px solid #000000;
+    padding: 25px;
+    margin: 0;
+    margin-top:-10px;
+}
+
+/* DAts cliente */
+.datos-cliente{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.datos-cliente .datos p{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.datos-cliente .datos p span{
+    width: 90px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Datos equipo */
+.datos-equipo{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.datos-equipo .datos p.datos-principal{
+    display: block;
+    width: 33.3%;
+    float: left;
+}
+.datos-equipo .datos p.datos-principal span{
+    width: 70px;
+    display: inline-block;
+    font-weight: bold;
+}
+hr{
+    margin-top:-5px !important;
+}
+.detalle-pagos{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.detalle-pagos .datos p{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+.detalle-pagos .datos p span{
+    color:#000000;
+}
+.texto-rojo{
+    color:red;
+}
+div.politicas{
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px;
+}
+div.politicas small{
+    width: 100%;
+    display: block;
+}
